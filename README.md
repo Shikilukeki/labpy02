@@ -57,7 +57,7 @@ Jika semua sudah benar harga yang harus dibayarkan akan keluar, sebaliknya jika 
 
 Contoh hasil eksekusi program : 
 
-
+![gambar](https://github.com/Shikilukeki/Foto/blob/main/pemesanan%20tiket%20bioskop.png?raw=true)
 
 # Kasus 2 : Program Kalkulator Sederhana
 
@@ -108,4 +108,4 @@ Jika angka yang dimasukan bukan 0, maka akan ada decision apakah hasil dari penj
 
 Contoh hasil eksekusi program :
 
-![Gambar]()
+![Gambar](https://github.com/Shikilukeki/Foto/blob/main/Aritmatika%20sederhana.png?raw=true)
