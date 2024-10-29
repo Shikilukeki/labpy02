@@ -12,7 +12,7 @@ Mata Kuliah : Bahasa Pemograman
 
 FlowChart :
 
-![gambar](https://github.com/Shikilukeki/Foto/blob/main/aritmatika%20sederhana%20flowchart.png?raw=true)
+![gambar](https://github.com/Shikilukeki/Foto/blob/main/FlowchartBioskop.png?raw=true)
 
 Penjelasan :
 
@@ -62,7 +62,7 @@ Contoh hasil eksekusi program :
 
 Flowchart : 
 
-![Gambar](https://github.com/Shikilukeki/Foto/blob/main/Flowchart%20aritmatika%20sederhana.png?raw=true)
+![Gambar](https://github.com/Shikilukeki/Foto/blob/main/aritmatika%20sederhana%20flowchart.png?raw=true)
 
 Program ini menggunakan if elif else untuk menentukan operasi aritmatika.
 
