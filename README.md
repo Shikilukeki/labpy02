@@ -54,3 +54,58 @@ else:
 ```
 
 Jika semua sudah benar harga yang harus dibayarkan akan keluar, sebaliknya jika ada kesalahan, tipe tiket menjadi tidak valid
+
+Contoh hasil eksekusi program : 
+
+
+
+# Kasus 2 : Program Kalkulator Sederhana
+
+Flowchart : 
+
+![Gambar](https://github.com/Shikilukeki/Foto/blob/main/Flowchart%20aritmatika%20sederhana.png?raw=true)
+
+Program ini menggunakan if elif else untuk menentukan operasi aritmatika.
+
+```python
+angka1 = float(input("Masukkan angka pertama: "))
+operator = input("Masukkan operator (+, -, *, /): ")
+angka2 = float(input("Masukkan angka kedua: "))
+```
+
+User akan diminta menginputkan bilangan pertama, operator aritmatika, dan bilangan kedua untuk di jumlahkan
+
+```python
+if operator == '+':
+    hasil = angka1 + angka2
+elif operator == '-':
+    hasil = angka1 - angka2
+elif operator == '*':
+    hasil = angka1 * angka2
+elif operator == '/':
+    if angka2 != 0:
+        hasil = angka1 / angka2
+    else:
+        print("Error: Pembagian dengan nol tidak diperbolehkan.")
+        hasil = None
+else:
+    print("Operator tidak valid!")
+    hasil = None
+
+```
+
+Penggunaan if, elif (else if), dan else untuk menentukan operator aritmatika yang akan digunakan untuk penjumlahan angka pertama dan angka kedua, serta peringatan eror karna akan menghasilkan nilai tak terhingga (inf)
+
+```python
+if hasil is not None:
+
+    if hasil.is_integer():
+        print(f"Hasil: {int(hasil)}")
+    else:
+        print(f"Hasil: {hasil}")
+```
+Jika angka yang dimasukan bukan 0, maka akan ada decision apakah hasil dari penjumlahan itu decimal atau tidak, jika hasilnya bilangan bulat, makan output penjumlahan akan menjadi interger, sebaliknya, jika hasil penjumlahan adalah bilangan pecahan atau desimal, maka output hasil akan menjadi float
+
+Contoh hasil eksekusi program :
+
+![Gambar]()
