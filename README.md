@@ -93,7 +93,7 @@ else:
 
 ```
 
-Penggunaan if, elif (else if), dan else untuk menentukan operator aritmatika yang akan digunakan untuk penjumlahan angka pertama dan angka kedua, serta peringatan eror karna akan menghasilkan nilai tak terhingga (inf)
+Penggunaan if, elif (else if), dan else untuk menentukan operator aritmatika yang akan digunakan untuk penjumlahan angka pertama dan angka kedua, serta peringatan eror untuk pembagian dengan nol (0), karna akan menghasilkan nilai tak terhingga (inf)
 
 ```python
 if hasil is not None:
